@@ -270,6 +270,29 @@ h6,
   }
 }
 
+.sticky-top.navbar-dark {
+  position: relative;
+  background: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link.show,
+.sticky-top.navbar-dark .navbar-nav .nav-link {
+  padding: 10px 0;
+  color: var(--dark);
+}
+
+.logo-text{
+  color: var(--dark);
+}
+
+.navbar-dark{
+  background-color: var(--light);
+}
+.navbar-dark .navbar-brand h1 {
+  color: var(--light);
+}
+
 /*** Carousel ***/
 .carousel-caption {
   top: 0;
@@ -647,4 +670,16 @@ h6,
     max-width:300px; 
     margin-top:-250px; 
     margin-bottom: 50px;
+}
+
+.catalog .row:nth-of-type(odd) {
+  background-color: #f8f9fa;
+}
+.catalog .grid-container {
+  border: 1px solid #dee2e6;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+.catalog .grid-container:hover {
+  background-color: #e2e6ea;
 }
